@@ -34,7 +34,7 @@ export class MentionSuggestions extends Component {
     if (nextProps.suggestions.length === 0 && this.state.isActive) {
       this.closeDropdown();
     } else if (nextProps.suggestions.length > 0 && nextProps.suggestions !== this.props.suggestions && !this.state.isActive) {
-      this.openDropdown();
+      //this.openDropdown();
     }
   }
 
